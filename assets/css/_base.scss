@@ -47,6 +47,16 @@ pre {
   overflow: auto;
 }
 
+.content {
+  p {
+    margin-right: 50px;
+  }
+
+  strong {
+    color: $primary-color;
+  }
+}
+
 ::selection {
   background: rgba($light-color, .25);
 }
